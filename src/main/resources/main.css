@@ -1,0 +1,219 @@
+/*.platform {*/
+/*    -fx-fill: #ffbf00;*/
+/*    -fx-stroke: #f8d038;*/
+/*}*/
+
+
+.background {
+    -fx-fill: url("Background.png");
+}
+
+
+.player {
+    -fx-fill: url("Greninja.png");
+}
+.platform{
+    -fx-fill: url("Platform.png")
+}
+/*.ground{*/
+/*    -fx-fill: url("ground.png")*/
+/*}*/
+.title{
+    /*-fx-font-size: 150px;*/
+    /*-fx-text-fill: url("Title.png");*/
+    /*-fx-font-family: "Tiro Kannada";*/
+    -fx-font-size: 150px;
+    /*-fx-text-fill: #1c1a1a*/
+    -fx-background-image: url("Title.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 500px;
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+
+
+}
+.start{
+    -fx-font-size: 45px;
+    /*-fx-text-fill: #1c1a1a*/
+    -fx-background-image: url("StartButton.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 200px;
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+}
+.highscore{
+    -fx-font-size: 24px;
+    -fx-text-fill: white
+}
+.lastscore{
+    -fx-font-size: 24px;
+    -fx-text-fill: white
+}
+.score{
+    -fx-font-size: 24px;
+    -fx-text-fill: #295c67
+}
+/*.game-over {*/
+/*    -fx-background-color:*/
+/*            linear-gradient(*/
+/*                    from 0% 0% to 0% 100%,*/
+/*                    #87CEEB 0%,*/
+/*                    #FFFACD 100%*/
+/*            );*/
+/*}*/
+
+
+
+
+.end-text {
+    -fx-font-size: 70px;
+    -fx-font-family: "Comic Sans MS", "Arial", sans-serif;
+    -fx-font-weight: bold;
+    -fx-text-fill: #8f1e1e;
+
+
+    -fx-effect: dropshadow(
+            gaussian,
+            rgba(0,0,0,0.6),
+            5,
+            0.0,
+            2,
+            2
+    );
+}
+
+
+.gameGrid {
+    -fx-alignment: center;
+}
+
+
+.exitDoor{
+    -fx-fill: url("ExitDoor.png")
+}
+.machamp{
+    -fx-fill: url("Machamp.png")
+}
+.sirfetched{
+    -fx-fill: url("Sir'Fetched.png");
+}
+.groudon{
+    -fx-fill: url("Groudon.png");
+}
+.spiritOrb{
+    -fx-fill: url("SpiritOrb.png");
+}
+.door{
+    -fx-fill: url("ExitDoor.png");
+}
+.poison{
+    -fx-fill: url("Poison.png");
+}
+.mega_stone{
+    -fx-fill: url("MegaStone.png");
+}
+.poisonPlayer{
+    -fx-fill: url("PoisenedGreninja.png");
+}
+.playerLeft {
+    -fx-fill: url("Greninja_Left.png");
+}
+.gameOverScreen{
+    -fx-background-color: rgba(248, 6, 6, 0.2);
+}
+.gameOver{
+    -fx-font-size: 150px;
+    /*-fx-text-fill: #1c1a1a*/
+    -fx-background-image: url("GameOver.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 500px;
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+}
+.tryAgain{
+    -fx-font-size: 45px;
+    /*-fx-text-fill: #1c1a1a*/
+    -fx-background-image: url("TryAgain.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 200px;
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+}
+.close{
+    -fx-font-size: 45px;
+    /*-fx-text-fill: #1c1a1a*/
+    -fx-background-image: url("Close.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 200px;
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+}
+.poisonedPlayerLeft{
+    -fx-fill: url("PoisenedGreninja_Left.png")
+}
+.healthBar {
+    -fx-accent: red;
+}
+.megaBar {
+    -fx-accent: lightblue;
+}
+.playerRightAttacking{
+    -fx-fill: url("GreninjaPunchRight.png");
+}
+.playerLeftAttacking{
+    -fx-fill: url("GreninjaPunchLeft.png");
+}
+.count{
+    -fx-font-family: "Press Start 2P";
+    -fx-font-size: 150px;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, black, 10, 0.8, 0, 0);
+}
+.fight{
+    -fx-text-fill: red;
+}
+.winnerScreen{
+    -fx-background-color: rgba(251, 230, 1, 0.2);
+}
+.You_Win{
+    -fx-font-size: 350px;
+    /*-fx-text-fill: #1c1a1a*/
+    -fx-background-image: url("Winner.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 500px;
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+}
+.instructions{
+    -fx-background-image: url("WADE.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left;
+    -fx-background-size: 60px;
+    -fx-font-family: "Press Start 2P";
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+}
+.megaPlayer{
+    -fx-fill: url("MegaGraninja.png")
+}
+.megaPlayerLeft{
+    -fx-fill: url("LeftMegaGraninja.png")
+}
+.poisonedPlayerAttacking{
+    -fx-fill: url("Poisoned_Jab.png");
+}
+.poisonedPlayerAttackingLeft{
+    -fx-fill: url("LeftPoisonJab.png");
+}
+.megaPlayerAttackingRight{
+    -fx-fill: url("MegaPunchRight.png");
+}
+.megaPlayerAttackingLeft{
+    -fx-fill: url("MegaPunchLeft.png");
+}
